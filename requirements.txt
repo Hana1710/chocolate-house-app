@@ -1,0 +1,8 @@
+Flask==2.0.3                  # The main web framework
+Flask-SQLAlchemy==2.5.1       # ORM for SQLite database management
+Flask-Migrate==3.1.0          # Manage database migrations
+Flask-WTF==0.15.1             # Form handling and validation (for customer suggestions)
+Flask-Login==0.5.0            # User session management (if applicable)
+requests==2.26.0              # Make HTTP requests (if needed)
+pytest==6.2.5                 # Testing framework for validation
+gunicorn==20.1.0              # WSGI server for running your app in production
